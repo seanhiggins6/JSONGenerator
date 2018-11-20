@@ -1,5 +1,7 @@
 This script takes contents in the csv directorty and payloads in the JSON directory to create the JavaScript JSON file for the demo environment.  It was easier to write this than to try and maintain the sequences.js file which is pushing 1000 lines and 33k.
 
+Grab the index.html and awsdemo.js files from Martin's repo - https://github.com/martindstone/awsdemo
+
 If this file is not adequate for you please let me know so I can update it.
 
 >>>>>>>>>>>>>>>>>
