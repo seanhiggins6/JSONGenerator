@@ -1,0 +1,58 @@
+This script takes contents in the csv directorty and payloads in the JSON directory to create the JavaScript JSON file for the demo environment.  It was easier to write this than to try and maintain the sequences.js file which is pushing 1000 lines and 33k.
+
+If this file is not adequate for you please let me know so I can update it.
+
+>>>>>>>>>>>>>>>>>
+
+If you want to add a new payload, do the following:
+1) Create a file in the JSON directory where the name is <shortTitle>.json
+	Please - NO spaces in the short name.
+2) In the csv/payloads.csv file, add a line like:
+"Integration: Long title", <shortTitle>
+
+real example being:
+"GuardDuty: SSH Brute Force Attack", ssh_brute_force
+
+After this you should be able to run the createElegant.pl script and that payload will show up in the middle menu in the "Payload" dropdown box.  Test it here before you move on with the appropriate Service selected.
+
+3) If you want to add this to a flow, edit the flow.csv file:
+Put in a line that has the flow key, integration key, shortTitle and delay.
+For example:
+GD5SF,CW,ssh_brute_force,0
+
+Note that the flow.csv file has the events in the order they'll be fired.
+
+>>>>>>>>>>>>>>>>>
+
+If you want to add a new Demo, do the following:
+1) Add a line to the csv/demos.csv file where the data is:
+Demo Key, Title
+
+real example being:
+GD5SF, "GD 5 Sample Findings"
+
+Note you will use GD5SF as a key in other files
+
+2) In the flows.csv file add one line per payload you want to send.
+Demo Key, Integration,shortTitle,delay
+
+For example:
+GD5SF,CW,ssh_brute_force,0
+
+>>>>>>>>>>>>>>>>>
+
+If you want to add another service, do the following:
+1) Add a line to the csv/servivces.csv file that contains:
+key, full name (no commas - sorry - need to get proper CSV 
+
+real example being:
+GD,Guard Duty
+
+The key (GD here) would be used in the flows.csv file, plus the persona2integration2key.csv file.
+This file has the multidimensional data of for each perosona - which integration gets which actual integration key.  So for Ken (peronsaID 1) it might look like:
+1,NR,<20 character NR integraionkey>
+
+Note that you need to do an integration key for each persona.  So the NR integration is listed 6 or 7 times here.
+
+>>>>>>>>>>>>>>>>>
+
