@@ -1,0 +1,7 @@
+# Used in other CSC files
+# PK, Full Name of Integration to display
+CW,CloudWatch
+PHD,PHD
+GD,GuardDuty
+NR,New Relic
+CT,CloudTrail
