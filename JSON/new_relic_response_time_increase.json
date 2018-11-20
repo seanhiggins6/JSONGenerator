@@ -1,0 +1,11 @@
+  "client": "New Relic",
+  "client_url": "https://rpm.newrelic.com/accounts/2222222/incidents/17615637",
+  "description": "Alert open: Response Time > 3000ms - Server: ip-172-30-0-227",
+  "event_type": "trigger",
+  "incident_key": "/Alert/222222/17615637/13317445",
+  "details": {
+    "ConfigurationItem": "ACME ENET",
+    "AlertMessage": "Email dispatch delay from ACME-022 server. Delay: 3 secs",
+    "CI": "ACME ENET",
+    "Priority": "2 - High"
+  }

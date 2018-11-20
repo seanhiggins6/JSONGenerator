@@ -1,0 +1,7 @@
+  "Type" : "Notification",
+  "description": "ALARM: \"CloudTrail: Console Sign-in Failures\" in US West (Oregon)",
+  "TopicArn" : "arn:aws:sns:us-west-2:957132980467:SH-testing",
+  "Subject" : "ALARM: \"CloudTrail: Console Sign-in Failures\" in US West (Oregon)",
+  "Message" : "{\"AlarmName\":\"CloudTrail: Console Sign-in Failures\",\"AlarmDescription\":null,\"AWSAccountId\":\"957132980467\",\"NewStateValue\":\"ALARM\",\"NewStateReason\":\"Threshold Crossed: 1 out of the last 1 datapoints [3.0 (16/11/18 23:41:00)] was greater than or equal to the threshold (3.0) (minimum 1 datapoint for OK -> ALARM transition).\",\"StateChangeTime\":\"2018-11-16T23:46:47.242+0000\",\"Region\":\"US West (Oregon)\",\"OldStateValue\":\"INSUFFICIENT_DATA\",\"Trigger\":{\"MetricName\":\"ConsoleSigninFailureCount\",\"Namespace\":\"CloudTrailMetrics\",\"StatisticType\":\"Statistic\",\"Statistic\":\"SUM\",\"Unit\":null,\"Dimensions\":[],\"Period\":300,\"EvaluationPeriods\":1,\"ComparisonOperator\":\"GreaterThanOrEqualToThreshold\",\"Threshold\":3.0,\"TreatMissingData\":\"\",\"EvaluateLowSampleCountPercentile\":\"\"}}",
+  "SigningCertURL" : "https://sns.us-west-2.amazonaws.com/SimpleNotificationService-ac565b8b1a6c5d002d285f9598aa1d9b.pem",
+  "UnsubscribeURL" : "https://sns.us-west-2.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-west-2:957132980467:SH-testing:4bcd8fec-6bd9-4582e9d1f6d"
