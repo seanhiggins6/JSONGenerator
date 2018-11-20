@@ -1,0 +1,7 @@
+# These are the names of the demos that show up im the drop down and the sequences.js file
+# Primary key, description
+GD5SF,"GD 5 Sample Findings"
+GDBC,"GD BitCoin Alerts"
+PHD,"Personal Health Daskboard"
+CWJVM,"CloudWatch JVM Restarts"
+CTUL,"CloudTrail Unsafe logins"
