@@ -2,6 +2,6 @@
 # Primary key, description
 GD5SF,"GD 5 Sample Findings"
 GDBC,"GD BitCoin Alerts"
-PHD,"Personal Health Daskboard"
+PHD,"Personal Health Dashboard"
 CWJVM,"CloudWatch JVM Restarts"
 CTUL,"CloudTrail Unsafe logins"
