@@ -17,6 +17,7 @@
 "CloudTrail: No 2FA #2", ct_no2fa
 "CloudTrail: No 2FA #2", ct_no2fa_1
 "CloudTrail: No 2FA #2", ct_no2fa_2
+"CloudTrail: No 2FA #3", ct_no2fa_3
 "CloudTrail: Root Usage", ct_root_usage
 "CloudTrail: Add User To Group", ct_add_user_to_group,
 "CloudTrail: Signin Failures", ct_sign_in_failures
@@ -28,3 +29,4 @@
 "New Relic: Response Time Increase", new_relic_response_time_increase,
 "CloudWatch: Elasticity Issue", cw_elasticity_issue,
 "CloudWatch: JVM Restart", cw_jvm_restart
+
