@@ -1,18 +1,18 @@
 # The steps to each demo.  Order here counts, must be sorted by flow
 # PK demos.csv, PK services.csv, 2nd column payloads.csv, delay in seconds
-GD5SF,CW,rdp_brute_force,0
-GD5SF,CW,ssh_brute_force,0
-GD5SF,CW,dns_data_exfiltration,0
-GD5SF,CW,guard_duty_changes,0
-GD5SF,CW,apis_invoked,0
-GDBC,CW,recon_network_permissions,3
-GDBC,CW,console_login_bc,2
-GDBC,CW,turn_off_logging_bc1,2
-GDBC,CW,turn_off_logging_bc1,2
-GDBC,CW,turn_off_logging_bc1,2
-GDBC,CW,crypto_dns_bc1,2
-GDBC,CW,crypto_dns_bc2,2
-GDBC,CW,crypto_dns_bc3,2
+GD5SF,GD,rdp_brute_force,0
+GD5SF,GD,ssh_brute_force,0
+GD5SF,GD,dns_data_exfiltration,0
+GD5SF,GD,guard_duty_changes,0
+GD5SF,GD,apis_invoked,0
+GDBC,GD,recon_network_permissions,3
+GDBC,GD,console_login_bc,2
+GDBC,GD,turn_off_logging_bc1,2
+GDBC,GD,turn_off_logging_bc1,3
+GDBC,GD,turn_off_logging_bc1,4
+GDBC,GD,crypto_dns_bc1,2
+GDBC,GD,crypto_dns_bc2,1
+GDBC,GD,crypto_dns_bc3,2
 PHD,PHD,phd_ec2_store_drive_west1,0
 PHD,NR,new_relic_response_time_increase,1
 PHD,PHD,phd_ec2_store_drive_west2,2
@@ -22,7 +22,7 @@ CTUL,CT,ct_root_usage,1
 CTUL,CT,ct_no2fa_2,1
 CTUL,CT,ct_root_usage,1
 CTUL,CT,ct_no2fa_3,1
-CWJVM,CT,cw_jvm_restart,1
-CWJVM,CT,cw_jvm_restart,2
-CWJVM,CT,cw_jvm_restart,2
-CWJVM,CT,cw_jvm_restart,2
+CWJVM,CW,cw_jvm_restart,1
+CWJVM,CW,cw_jvm_restart,2
+CWJVM,CW,cw_jvm_restart,2
+CWJVM,CW,cw_jvm_restart,2
