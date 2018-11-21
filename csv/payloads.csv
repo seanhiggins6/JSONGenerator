@@ -3,23 +3,22 @@
 # Description (MUST BE UNIQUE), PK - which also is FILENAME in JSON directory
 "GuardDuty: RDP Brute Force Attack", rdp_brute_force,
 "GuardDuty: SSH Brute Force Attack", ssh_brute_force,
-"GuardDuty: DNS Data Exfiltration 1", dns_data_exfiltration,
-"GuardDuty: DNS Data Exfiltration 2", dns_data_exfiltration_2,
-"GuardDuty: DNS Data Exfiltration 3", dns_data_exfiltration_3,
+"GuardDuty: DNS Data Exfiltration", dns_data_exfiltration,
+"GuardDuty: DNS Data Exfiltration (host 2)", dns_data_exfiltration_2,
+"GuardDuty: DNS Data Exfiltration (host 3)", dns_data_exfiltration_3,
 "GuardDuty: GuardDuty Changes", guard_duty_changes,
 "GuardDuty: API's invoked", apis_invoked,
 "GuardDuty: Recon NetworkPermissions", recon_network_permissions,
 "GuardDuty: Unauthorized Access", console_login_bc,
-"GuardDuty: Turn Off Logging", turn_off_logging_bc1,
-"GuardDuty: Bitcoin DNS 1", crypto_dns_bc1,
-"GuardDuty: Bitcoin DNS 2", crypto_dns_bc2,
-"GuardDuty: Bitcoin DNS 3", crypto_dns_bc3,
-"CloudTrail: No 2FA #2", ct_no2fa
-"CloudTrail: No 2FA #2", ct_no2fa_1
-"CloudTrail: No 2FA #2", ct_no2fa_2
-"CloudTrail: Root Usage", ct_root_usage
-"CloudTrail: Add User To Group", ct_add_user_to_group,
-"CloudTrail: Signin Failures", ct_sign_in_failures
+"GuardDuty: Turn Off Logging (host 1)", turn_off_logging_bc1,
+"GuardDuty: Bitcoin DNS", crypto_dns_bc1,
+"GuardDuty: Bitcoin DNS #2", crypto_dns_bc2,
+"GuardDuty: Bitcoin DNS #3", crypto_dns_bc3,
+"CloudTrail: No 2FA Auth (amountjoy)", ct_no2fa_1,
+"CloudTrail: No 2FA Auth (jdoe)", ct_no2fa_2,
+"CloudTrail: No 2FA Auth (dmendez)", ct_no2fa_3,
+"CloudTrail: Root Account Usage", ct_root_usage,
+"CloudTrail: Sign In Failures", ct_sign_in_failures,
 "PHD: Elastic Load Balancer API Issue", phd_elb_api_issue,
 "PHD: EC2 Store Drive Issue (US West 1)", phd_ec2_store_drive_west1,
 "PHD: EC2 Store Drive Issue (US West 2)", phd_ec2_store_drive_west2,
@@ -27,4 +26,4 @@
 "PHD: EBS Volume Lost (US East 1)", phd_ebs_volume_lost,
 "New Relic: Response Time Increase", new_relic_response_time_increase,
 "CloudWatch: Elasticity Issue", cw_elasticity_issue,
-"CloudWatch: JVM Restart", cw_jvm_restart
+"CloudWatch: JVM RestartCount", cw_jvm_restart
